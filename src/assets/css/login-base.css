@@ -1,0 +1,126 @@
+/*
+Generator: ZWW
+Content:HOS
+Creation Data:  2022-4-19
+*/
+.login-card {
+    color: #ffffff;
+}
+.login-card .hos-tabs__item {
+    color: #babcc8!important;
+    font-size: 16px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+.login-card .hos-tabs__item.is-active{
+    color: #ffffff!important;
+}
+.login-card .hos-tabs__nav{
+    border:0px!important;
+    width: 100%;
+    text-align: center;
+}
+.login-card .hos-tabs--card>.hos-tabs__header{
+    border-bottom: none;
+}
+.login-card .hos-tabs--card .hos-tabs__item:after {
+    display: none;
+}
+.login-card .hos-tabs--card .hos-tabs__item.is-active:after {
+    content: "";
+    display: block;
+    height: 2px;
+    margin-top: -2px;
+    width: 100%;
+    margin-left: -20px;
+    background-image: linear-gradient(to right,#41ffff, #329fff);
+}
+.login-card .hos-tabs--card .hos-tabs__item:focus.is-active.is-focus:not(:active){
+    box-shadow: none;
+}
+.login-card .hos-tabs{
+    width: 350px;
+    margin: auto;
+}
+.login-card .VCode{
+    height: 45px;
+}
+.login-card .VCode img{
+    width: calc(100% - 15px);
+    margin-left: 15px;
+    height: 45px;
+    border-radius: 4px;
+}
+.login-card .hos-form .hos-col {
+    min-height: 45px!important;
+}
+.login-card .Password_settings{
+    line-height: 10px;
+    text-align: right;
+    cursor: pointer;
+    color:#a0a4b5;
+}
+.login-card .Password_settings:hover{
+    color:#ffffff;
+}
+.login-card .thirdLogin{
+    width: 350px;
+    margin: auto;
+    color: #d0d2db;
+}
+.thirdLogin img {
+    margin-left: 10px;
+    float: right;
+    cursor: pointer;
+}
+.thirdLogin img{    width: 24px;
+    height: 24px;
+}
+.login-card input::-webkit-input-placeholder {
+    color: #b8bcca!important;
+}
+.login-card .hos-tabs__content{
+    height: 355px;
+}
+.login-card .hos-input__prefix {
+    left: 0;
+    right: auto;
+    width: 45px;
+    font-size: 18px;
+    line-height: 45px;
+    color: #b9bdca;
+}
+.login-card .hos-input--prefix .hos-input__inner {
+    padding-left: 45px;
+}
+.login-card input {
+    padding-left: 45px;
+}
+.login-card .tenantSelect + i{
+    position: absolute;
+    left: 13px;
+    font-size: 17px;
+    margin-top: 13px;
+    color: #b9bdca;
+}
+.login-card .tenantSelect:hover + i{
+    color: #ffffff;
+}
+.hos-select-dropdown.hos-popper.tenantPop .hos-select-dropdown__item{
+    color: #b9bdca;
+}
+.hos-select-dropdown.hos-popper.tenantPop  .hos-scrollbar__wrap{
+    overflow: auto;
+}
+.login-card .VCode span{
+    background: #e5e5e5;
+    line-height: 45px;
+    padding: 0px 14px;
+    margin-left: 15px;
+    float: right;
+    border-radius: 4px;
+    color: #999999;
+}
+.login-card .hos-input:hover .hos-input__icon {
+    color: #ffffff;
+}

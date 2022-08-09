@@ -1,0 +1,42 @@
+{
+  "name": "hos-app-web",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:test": "vue-cli-service build --mode test",
+    "build:hosTest": "vue-cli-service build --mode hosTest",
+    "build:demo": "vue-cli-service build --mode demo"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "core-js": "^3.6.5",
+    "crypto-js": "^4.1.1",
+    "encryptlong": "^3.1.4",
+    "hosui": "^1.1.1-2",
+    "js-base64": "^3.7.2",
+    "less-loader": "^4.1.0",
+    "nprogress": "^0.2.0",
+    "qs": "^6.10.3",
+    "sm-crypto": "^0.3.7",
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.27.0",
+    "vue-ls": "^4.2.0",
+    "vue-router": "^3.2.0",
+    "vuedraggable": "^2.24.3",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.2.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

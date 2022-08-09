@@ -1,0 +1,284 @@
+@import '~hosui/lib/theme-chalk/index.css';
+@import './navigation.css';
+@import './login.scss';
+@import './biz-table.scss';
+@import './hos-biz-table.scss';
+@import './perm.scss';
+@import './sys.scss';
+@import './resource.scss';
+
+.dialog-footer {
+    text-align: center;
+    padding-bottom: 20px;
+
+    .hos-button+.hos-button {
+        margin-left: 20px;
+    }
+}
+
+// 左树右表
+.left-tree-right-table {
+    height: 100%;
+
+    .left-tree-search {
+        padding: 10px 10px 0;
+        background-color: #fff;
+    }
+
+    .hos-main {
+        padding: 0;
+        padding-left: 10px;
+        overflow: hidden;
+    }
+
+    .hos-aside {
+        border: 1px solid #E2E2E2;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    .hos-tree {
+        height: calc(100% - 71px);
+        overflow: auto;
+        padding-left: 10px;
+    }
+}
+
+/* .hos-container.main .hos-aside {
+  box-shadow: none;
+} */
+.simple-input-number {
+    .hos-input-number {
+        width: 100%;
+    }
+}
+
+.hosInputNumber {
+    width: 200px;
+}
+.hos-input-number-pwd {
+  width: 200px;
+}
+
+.pwdFormItem {
+    display: inline-block;
+}
+
+// 对话框框垂直水平居中
+.hos-dialog {
+    display: flex;
+    flex-direction: column;
+    margin: 0 !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+//数据权限作用域维护
+.data-pri-scope {
+    padding: 10px;
+    padding-bottom: 0;
+
+    .hos-tabs__content {
+        min-height: 170px;
+    }
+
+    .dialog-footer {
+        padding-top: 20px;
+    }
+}
+
+//版本管理版本授权
+.tenant-package-auth {
+    .dialog-footer {
+        padding-top: 20px;
+    }
+
+    .authtree {
+        height: 380px;
+        overflow: auto;
+        margin: 0 -15px;
+        .hos-tree-node__content > .hos-tree-node__expand-icon {
+            margin-left: 9px;
+        }
+    }
+}
+
+// 数据日志查看
+.data-view .hos-table__body-wrapper {
+    max-height: 300px;
+    overflow: auto;
+    overflow-x: hidden;
+
+    .dialog-footer {
+        padding-top: 20px;
+    }
+}
+
+//页面预置，元素/数据权限列表
+.sys-perm-page {
+    .hos-table--border {
+        //border-right: none !important;
+        box-shadow: 0px 0px 4px 1px #DBDBDB;
+    }
+
+    .hos-table {
+        box-shadow: 0px 0px 4px 1px #DBDBDB;
+        border-radius: 5px;
+    }
+
+    .hos-table::before {
+        background-color: #fff;
+    }
+
+    .sys-perm-page-padding {
+        padding: 20px 10px 10px 10px;
+    }
+}
+
+
+// 上传头像 切换角色
+.upload-avatar .dialog-footer {
+    padding-top: 20px;
+    line-height: 28px;
+
+    .avatarHeight {
+        height: 178px;
+    }
+}
+
+.change-pass {
+    .progress {
+        width: 95%;
+        line-height: 40px;
+        text-align: left;
+    }
+    .hos-form-item__content {
+        line-height: 40px;
+    }
+    .hos-progress-bar {
+        padding-right: 70px;
+        margin-right: -70px;
+    }
+}
+
+// 左侧menu按钮的大小
+.hos-submenu [class^=hos-icom-],
+.hos-submenu [class^=hos-icon-] {
+    font-size: 16px;
+}
+
+.hos-date-editor.auto_width.hos-input,
+.hos-date-editor.auto_width.hos-input__inner {
+    width: auto;
+}
+
+//导入中间的宽度
+.hos-divider--horizontal {
+    margin: 15px 0;
+}
+
+.datapicker {
+    width: 100% !important;
+    //min-width: 240px;
+}
+
+.dataker .hos-input__inner.hos-date-editor--daterange .hos-range__close-icon {
+    margin-left: -5px;
+}
+
+.assignuser>.hos-date-editor.hos-input {
+    width: 100%;
+}
+
+.assignuser,
+.user_card .hos-date-editor.hos-input {
+    width: 100% !important;
+}
+//日志查看
+.view-Log {
+    margin-bottom: 15PX;
+}
+
+//导入组件
+.comupload {
+    .type-div {
+        margin-left: 20%;
+        text-align: left;
+    }
+
+    .shadow {
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0px 0px 5px 0px #dcdfe6;
+    }
+
+    .div-loc {
+        margin-bottom: 10px;
+        text-align: center;
+        //min-height: 200px;
+    }
+
+    .step-child-div {
+        margin-left: 20%;
+        margin-top: 10px;
+
+        .hos-link--inner {
+            margin-bottom: 3px;
+        }
+    }
+
+    .dialog-footer {
+        padding: 10px 0 20px 0;
+    }
+}
+
+.comexport {
+    //height: 200px;
+    margin: auto;
+    padding-top: 10px;
+    width: 95%;
+    box-sizing: border-box;
+}
+
+.exports {
+    padding: 10px 0 20px 0;
+}
+
+.hos-date-editor.hos-input,
+.hos-date-editor.hos-input__inner,
+.hos-input-number {
+    width: 100%;
+}
+
+// 密码策略的样式
+.pwdpolicy {
+    .hosInputNumber {
+        width: 350px;
+    }
+    .hos-input-number-pwd {
+    width: 350px;
+    }
+    .pwd-padding {
+        padding: 10px 10px 0 0;
+    }
+}
+// 密码策略背景
+.pwd-border {
+    background-color: #fff; 
+    height: calc(100% - 20px); 
+    padding: 9px;
+    border-radius: 4px;
+    border: 1px solid #e2e2e2;
+}
+
+.dialog-footer {
+    .hos-button {
+        padding: 5px 25px;
+    }
+}

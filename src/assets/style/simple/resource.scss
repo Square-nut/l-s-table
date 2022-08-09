@@ -1,0 +1,20 @@
+.hos-select-dropdown-current {
+  width: 300px;
+  .hos-select-dropdown__item {
+    display: inline;
+  }
+}
+/*修改密码里用于密码策略信息提示和显示密码按钮的样式*/
+.length-str {
+  font-size: small;
+  font-weight: 200;
+  float: left;
+}
+.icon-position {
+  padding-right: 5px;
+}
+
+// 页面属性的间距
+.resource-attr {
+    padding: 10px 10px 0 10px;
+}

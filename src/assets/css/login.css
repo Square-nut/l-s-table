@@ -1,0 +1,130 @@
+/*
+Generator: ZWW
+Content:HOS
+Creation Data:  2022-4-19
+*/
+.hos-login-card  .hos-card__body{
+    padding:0;
+  }
+  .hos-system-name {
+    padding-top: 25px;
+    font-size: 32px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #000000;
+  }
+  .title-container .title{
+    color:#ffffff;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  .hos-login-card .hos-card {
+      background-color: transparent;
+      border: 0;
+  }
+  .hos-login-card .hos-input>input {
+    height: 45px;
+    line-height: 45px;
+    background: rgba(65,165,255,0.5)!important;
+    color: #fff!important;
+    border: 1px solid #3b8cd9!important;
+    border-radius: 4px;
+}
+  .hos-login-card .hos-button{
+    background-color: #41feff;
+    background-image: linear-gradient(to right, #41feff , #329fff);
+    border: 0;
+    height: 45px;
+    font-size: 18px;
+    letter-spacing: 10px;
+  }
+  .hos-login-card .otherLogin>div:first-child:before {
+      content: "";
+      background: linear-gradient(
+      270deg, #EBEBEB 0%, rgba(235, 235, 235, 0.1) 100%);
+      width: 143px;
+      height: 1px;
+      display: block;
+      float: left;
+      margin-top: 10px;
+      margin-left: 50px;
+  }
+  .hos-login-card .otherLogin>div:first-child:after {
+      content: "";
+      background: linear-gradient(90deg, #EBEBEB 0%, rgba(235, 235, 235, 0.1) 100%);
+      width: 143px;
+      height: 1px;
+      display: block;
+      float: right;
+      margin-top: 10px;
+      margin-right: 50px;
+  }
+  .hos-login-card .otherLogin>div:first-child {
+      text-align: center;
+      margin-bottom: 25px;
+  }
+  .hos-login-card .otherLogin {
+      color: #b9bcc8;
+      text-align: center;
+  }
+  .hos-login-card .otherLogin>div:last-child>div:hover{
+    color:#ffffff;
+    cursor: pointer;
+  }
+  .hos-login-card .hos-form-item {
+      margin-bottom: 40px;
+  }
+  .login-footer .foot-font {
+    font-size: 16px;
+  }
+  .login-footer{
+      height: 24px!important;
+      position: absolute;
+      width: 100%;
+      color: #8292a7;
+      text-align: center;
+      bottom: 20px;  
+  }
+  .hos-img-login-bg{
+    background-image: url(../images/login-bg.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .hos-img-login-bg::before{
+    content: "";
+    background-image: url(../images/bg_ill2.png);
+    position: absolute;
+    width: 70%;
+    height: 85%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 10%;
+    margin-left: 6%;
+  }
+.hos-main .hos-login-card{
+    width: 517px;
+    position: absolute;
+    right: 7%;
+    top: 20%;
+}
+.hos-login-card .hos-tabs__header{
+  background: transparent;
+}
+.hos-login-card .hos-tabs__content{
+  background: transparent!important;
+  border: none!important; 
+}
+@media (min-width: 1920px) {
+  .hos-img-login-bg::before {
+    height: 90%;
+    top: 5%;
+    margin-left: 8%;
+  }
+  .hos-main .hos-login-card{
+    right: 260px;
+  }
+}

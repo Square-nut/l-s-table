@@ -1,0 +1,24 @@
+$--color-primary: var(--color-primary,#339EFF);
+
+//header背景色
+$--header-color1: var(--header-color1,#47A8FF);
+$--header-color2: var(--header-color2,#0979DE);
+
+//菜单背景色
+$--header-menu-color1: var(--header-menu-color1,#42a2fb);
+$--header-menu-color2: var(--header-menu-color2,#1881e3);
+
+//顶级菜单hover时颜色
+$--one-menu-hover-color: var(--one-menu-hover-color,#0979DE);
+// 右上角dropdown hover时背景颜色
+$--top-right-hover-color: var(--top-right-hover-color,#0063a7);
+
+//左侧菜单
+$--leftMenu-bg-color: var(--leftMenu-bg-color,#e5f3ff);
+$--leftMenu-text-color: var(--leftMenu-text-color,#339EFF);
+
+:export {
+  color-primary: $--color-primary;
+  header-color1: $--header-color1;
+  header-color2: $--header-color2;
+}

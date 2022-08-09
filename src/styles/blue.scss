@@ -1,0 +1,13 @@
+/* theme color */
+$--color-primary: #339EFF;
+$--color-primary-hover: #EFF9FF;
+$--color-hover: #006FD2;
+$--color-primary-light-10: #006FD2;
+$--alert-border-color: #9CD0FF;
+
+
+/* icon font path, required */
+$--font-path: "~hosui/lib/theme-simple/fonts";
+$--icon-image-path: "~hosui/lib/theme-simple/icon/image";
+
+@import "~hosui/packages/theme-simple/src/index";

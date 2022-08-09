@@ -1,0 +1,23 @@
+.hos-login-card{
+  .hos-card__body {
+    background-color: transparent;
+  }
+  .hos-tabs {
+    background-color: transparent;
+  }
+  .tenantSelect {
+    width: 100%;
+  }
+}
+.hos-select-dropdown.hos-popper.tenantPop {
+  background: rgba(65,165,255,0.5)!important;
+  backdrop-filter: blur(30px);
+  margin-top: -2px;
+}
+.tenantPop .hos-select-dropdown__item.hover,.tenantPop  .hos-select-dropdown__item:hover{
+  background-color:#32A0FF;
+  color: #fff;
+}
+.login-card .hos-form-item {
+  margin-bottom: 20px!important;
+}

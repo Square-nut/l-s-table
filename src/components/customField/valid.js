@@ -1,0 +1,22 @@
+export default {
+    validateUpperCase: /^.*(?=.*[A-Z]).*$/,
+    validateUpperCaseMSG: "必须包含大写字母",
+    validateLowerCase: /^.*(?=.*[a-z]).*$/,
+    validateLowerCaseMSG: "必须包含小写字母",
+    isPassword: /^(?![A-z0-9]+$)(?![A-z~@*()_]+$)(?![0-9~@*()_]+$)([A-z0-9~@*()_]{4,})$/,
+    isPasswordMSG: "必须包含大小写、数字和特殊字符",
+    validatePhone: /^[1][3,4,5,7,8][0-9]{9}$/,
+    validatePhoneMSG: "请输入正确的手机号",
+    validateTelphone: /0\d{2}-\d{7,8}/,
+    validateTelphoneMSG: "请输入正确的固定电话",
+    validatePhoneTwo: /^((0\d{2,3}-\d{7,8})|(1[34578]\d{9}))$/,
+    validatePhoneTwoMSG: "请输入正确的手机号或固定电话",
+    validateIdNo: /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/,
+    validateIdNoMSG: "请输入正确的身份证号",
+    validateEMail: /^([a-zA-Z0-9]+[-_\.]?)+@[a-zA-Z0-9]+\.[a-z]+$/,
+    validateEMailMSG: "请输入有效的邮箱地址",
+    validateIP: /^((0\d{2,3}-\d{7,8})|(1[34578]\d{9}))$/,
+    validateIPMSG: "请输入合法的ip地址",
+    validateURL: /^(https?|ftp):\/\/([a-zA-Z0-9.-]+(:[a-zA-Z0-9.&%$-]+)*@)*((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9][0-9]?)(\.(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])){3}|([a-zA-Z0-9-]+\.)*[a-zA-Z0-9-]+\.(com|edu|gov|int|mil|net|org|biz|arpa|info|name|pro|aero|coop|museum|[a-zA-Z]{2}))(:[0-9]+)*(\/($|[a-zA-Z0-9.,?'\\+&%$#=~_-]+))*$/,
+    validateURLMSG: "请输入合法的url"
+}
